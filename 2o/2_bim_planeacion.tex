@@ -1,0 +1,315 @@
+%16 oct - 17 dic
+
+\documentclass[letterpaper,10pt]{article}
+\usepackage[hmargin=3.5cm, vmargin=2.25cm]{geometry} 
+\usepackage{color,graphicx}
+\usepackage{eso-pic}
+\usepackage[usenames,dvipsnames]{xcolor}
+% \usepackage{xunicode}
+% \usepackage{fontspec}
+\usepackage{parskip}
+\usepackage[absolute]{textpos}
+\usepackage[spanish]{babel}
+\spanishdecimal{.}
+
+\usepackage{fullpage}
+\usepackage{amsmath}
+\newcommand\BackgroundLogo{
+\put(175,320){
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\includegraphics[width=4cm,height=2cm,keepaspectratio]{/Users/reinaldo/Documents/clases/jassa/logo}
+\vfill
+}}}
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+%-----------------------------Fonts---------------------------------%
+% \defaultfontfeatures{Mapping=tex-text}
+% \setmainfont[Mapping=tex-text]{Linux Libertine O}     % http://www.linuxlibertine.org/
+% \setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Linux Biolinum O} % http://www.linuxlibertine.org/
+% \setmonofont[Scale=MatchLowercase]{FreeMono}          % http://www.gnu.org/software/freefont/
+
+%--------------------Link colors and pdf info-----------------------%
+\usepackage{hyperref}
+\definecolor{headings}{HTML}{701112}
+\definecolor{links}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=links,linkcolor=links,pdftitle=Planeaci\'on bimestral -- Reinaldo A. Zapata Pe\~na,pdfauthor=Reinaldo A. Zapata Pe\~na}
+
+%-----------------------------Watermark-----------------------------%
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{4mm}{0.2\paperheight}
+\setlength{\parindent}{0pt}
+
+%----------------------Custom section headings----------------------%
+\usepackage{titlesec}
+\titleformat{\section}
+{\color{headings}\scshape\sffamily\Large\raggedright}{}{0em}{}[\color{black}\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+\title{\sc \Huge Secuencia Did\'actica Bimestral \\ Primero de Secundaria}
+
+\begin{document}
+\AddToShipoutPicture*{\BackgroundLogo}
+\ClearShipoutPicture
+
+\date{}
+
+\maketitle
+
+\vspace{-2.3cm}
+
+\begin{center}
+{\Large\color{headings}\sffamily{Secundaria Incorporada a la SEP  }}
+\end{center}
+
+% \vspace{5mm}
+
+\section{Informaci\'on general}
+\begin{tabular}{R{0.25\textwidth}p{0.71\textwidth}}
+    \textsc{Docente:}       &   M. en C. Reinaldo Arturo Zapata Pe\~na. \\
+    \textsc{Materia:}       &   Matem\'aticas, primero de secundaria. \\
+    \textsc{Grupos:}        &   A, C. \\
+    \textsc{Ciclo escolar:} &   2015 -- 2016. \\
+    \textsc{Periodo:}       &   Segundo bimestre, 16 de octubre -- 17 de diciembre de 2015. \\
+                            &   Un total de 42 sesiones de 50 minutos. \\
+    \textsc{Criterios de}   &   Examen parcial:     35\%. \\   
+    \textsc{evaluaci\'on:}  &   Examen bimestral:   35\%. \\
+                            &   Tareas y trabajos:  25\%. \\
+                            &   Participaci\'on:     5\%. \\
+    \textsc{Seguimiento:}   &   Es necesario que los alumnos obtengan un
+    promedio de examen aprobatorio para que sus trabajos en clase y la
+    participación sean tomados en cuenta. Se mandar\'an avisos a casa para los
+    padres de aquellos alumnos que no entreguen dos o m\'as tareas. \\
+
+\end{tabular}
+
+
+\section{Competencias a trabajar}
+\begin{tabular}[t]{R{0.25\textwidth}p{0.71\textwidth}}
+    \textsc{Competencias: } &   Resolver problemas de manera aut\'onoma. \\ 
+                            &   Comunicar información matem\'atica. \\
+                            &   Validar procedimientos y resultados. \\
+                            &   Manejar t\'ecnicas eficientemente. \\
+\end{tabular}
+
+\section{Resumen de actividades}
+\begin{tabular}[t]{R{0.25\textwidth}p{0.71\textwidth}}
+16 octubre      & Dictado temario, portada segundo bimestre. \\
+19-23 octubre   & Revision examen bimestral, Per\'imetrosy 
+                  \'areas de figuras regulares. \\
+26-29 octubre   & Per\'imetros y \'areas de figuras regulares e irregulares \\
+30 octubre      & Consejo T\'ecnico Escolar \\
+3-6, 9-11 noviembre   & Operaciones y problemas con decimales. \\
+12-13, 16-19 noviembre & Figuras irregulares y problemas con per\'imetros y \'areas. \\
+20 noviembre    & Examen parcial. \\
+23 noviembre    & Revisi\'on de examen, correcci\'on de examen parcial. \\
+24-26 noviembre & Proporcionalidad directa. \\
+27 noviembre    & Consejo T\'ecnico escolar. \\
+30-3 diciembre  & Proporcionalidad directa e inversa. \\
+7-11 diciembre  & Medidas de tendencia central / Probabilidad y estad\'istica. \\
+14 diciembre    & Examen bimestral. \\
+\end{tabular}
+
+\newpage
+
+\section{Aprendizajes esperados}
+\begin{tabular}[t]{R{0.25\textwidth}p{0.71\textwidth}}
+Fracciones:     & Los alumnos reafirma sus conocimientos en el manejo de
+fracciones, operaciones b\'asicas con fracciones y problemas con fracciones
+similares a los trabajados en el primer bimestre. \\ 
+Decimales:      & Losalumnos aprenden a resolver sumas y restas con decimales
+                acomodando en punto decimal en la forma correcta y recordando el
+                proceso correspondiente para cada uno de los procesos. \\
+                & Los alumnos aprenden a resolver multiplicaciones con decimales
+                acomodando el punto decimal en el resutado final. \\
+                & Los alumnos aprenden a resolver divisiones con decimales en el
+                divdendo y/o divisor. \\
+                & Los alumnos aprenden a resolver problemas que implican el uso
+                de operaciones con decimales. \\
+Geomet\'ia:     & Usando fracciones y decimales los alumnos aprende a calcular 
+                el per\'imetro y el \'area de figuras planas regulares e 
+                irregulares. \\
+                & Los alumnos aprenden a construir circunferencias, tri\'angulos 
+                y cuadril\'ateros dadas distintas propiedades de los mismos. \\
+                & Los alumnos aprenden a resolver prblemas que implican el
+                c\'alculo de per\'imetros y \'areas de figuras planas. \\
+Proporcionalidad: 
+                & Los alumnos aprenden a resolver problemas sencillos de
+                proporcionalidad as\'i como descuentos sencillos como 25\%, 50\%
+                y 75\%. \\
+Probabilidad y estad\'istica:
+                & Los alumnos aprenden a calcular las medidas de tendencia 
+                central (media, moda y mediana) de grupos de datos.
+\end{tabular}
+
+\vspace{5mm}
+
+El enfoque de la clase se har\'a impulsndo tanto el trabajo individual como el 
+grupal fomentando la sana convivencia entre los alumnos as\'i como el esp\'iritu
+de ayuda mutua para lograr un avance en los conocimientos.
+
+\vspace{5mm}
+
+\section{Temas  y secuencias did\'acticas}
+\begin{tabular}[t]{R{0.25\textwidth}p{0.71\textwidth}}
+    \textsc{Tiempo:}                    & 1 sesi\'on: 16 de octubre. \\
+    \textsc{Temas y subtemas:}          & Presentaci\'on general de temas a
+    tratar, criterios de evaluaci\'on y elaboraci\'on de portada  del segundo
+    bimestre.\\
+\\ \hline \\
+    \textsc{Tiempo:}                    & 1 sesi\'on: 19 de octubre. \\
+    \textsc{Temas y subtemas:}          & Revisi\'on grupal del examen bimestral del primer bimestre. Correcci\'on de examen.\\
+    \sc{Evidencias a evaluar:}          & Una tarea correspondiente a la correcci\'on del examen. \\ \\
+    \large{\sc Secuencias:} \\
+    Profesor:   & Se le entregar\'a a los alumnos su examen bimestral. Se proyectar\'a el examen resuelto a manera que los alumos puedan revisar sus aciertos o errores. \\
+    Alumno:     & Har\'a la correcci\'on de los errores cometidos en el examen bimestral y tendr\'a que entregarlos como una tarea. \\
+
+\end{tabular}
+\begin{tabular}[t]{R{0.25\textwidth}p{0.71\textwidth}}
+
+\\ \hline \\
+    \textsc{Tiempo:}                    & 4 sesiones: 20--23  de octubre. \\
+    \textsc{Temas y subtemas:}          & Per\'imetros y \'areas de figuras planas regulares.\\
+    \sc{Evidencias a evaluar:}          & 1 tarea, 1 ejercicio en libreta, p\'agins del libro (72--75) \\ \\
+    \large{\sc Secuencias:} \\
+    Alumno:     & Obtenci\'on de la definici\'on de per\'imetro y \'area usando el diccionario. \\
+                & Diferenciaci\'on entre per\'imetro y \'area y sus correspondientes unidades \\
+    Profesor:   & Dictado de las f\'ormulas para obtener el per\'imetro y el \'area de figuras planas regulares. \\
+                & Explicaci\'on del uso de la jerarqu\'ia de operaciones para resolver el \'area de una circunferencia y de la procedencia de la misma: $A_{c} = \pi r^{2}$. \\ 
+                & Explicaci\'on de la procedencia del \'area del tri\'angulo: $A_{t} = \frac{bh}{2}$. \\
+                & Explicaci\'on del trazo de tri\'angulos equil\'ateros. \\
+    Alumno:     & Construcci\'on de circunferencias, tri\'angulos equil\'ateros y cuadrads y c\'alculos de sus correspondientes per\'imetros y \'areas. \\
+    Profesor:   & Explicaci\'on de la procedencia para el c\'alculo de per\'imetros y \'aras de pol\'igonos regulares con cinco o m\'as lados: $P = n\ell$, $A = \frac{Pa}{2} $. \\
+    Alumno:     & C\'alculo del per\'imetro y \'area de pol\'igonos regulares de cinco o m\'as lados. \\
+\\ \hline \\
+    \textsc{Tiempo:}& 1 d\'ia, viernes 30 de Octubre. \\
+                    & {\Large \sc Consejo T\'ecnico Escolar.} \\ 
+\\ \hline \\
+    \textsc{Tiempo:}                    & 7 sesiones: 3--6 y 9--11  de noviembre. \\
+    \textsc{Temas y subtemas:}          & Operaciones con n\'umeros decimales.\\
+    \sc{Evidencias a evaluar:}          & 2 tarea, 3 ejercicios en libreta, p\'aginas del libro (60--63, 88--95) y examen sorpresa. \\ \\
+    \large{\sc Secuencias:} \\
+    Pofesor:    & Revisi\'on con los alumnos de procedimientos incorrectos al momento de hacer sumas y restas con n\'umeros enteros y decimales. \\
+    Alumno:     & Correcci\'on de procedimientos al momento de acomodar el punto decimal, y al momento de restar enteros con decimales.\\
+    Alumno:     & Resoluci\'on de operaciones de suma y resta con decimales. Resolución de p\'agimas del libro: 60--63 \\
+    Profesor:   & Explicaci\'on del procedimiento correcto para resolver multiplicaciones con decimales: conteo de posiciones decimales en los factores. \\
+
+    Alumno:     & Resoluci\'on de multiplicaciones con decimales. \\
+                & Resoluci\'on de p\'aginas del libro: 88--91 \\
+    Profesor:   & Explicaci\'on del procedimento para resolver correctamente divisiones con decimales: recoriendo el punto decimal de forma correcta. \\
+    Alumno:     & Resoluci\'on de divisiones con punto decimal. \\ 
+                & Resoluci\'on de p\'aginas del libro: 92--95. \\ \\
+    Alumno:     & Resoluci\'on de un examen sorpresa con valor de una tarea.
+\\ \hline \\
+\end{tabular}
+
+\begin{tabular}[t]{R{0.25\textwidth}p{0.71\textwidth}}
+
+    \textsc{Tiempo:}                    & 6 sesiones: 12--13 y 16--19  de noviembre. \\
+    \textsc{Temas y subtemas:}          & Per\'imetros y \'areas de figuras planas iregulares y problemas que implican per\'imetros y \'areas de figuras planas.\\
+    \sc{Evidencias a evaluar:}          & 1 tarea, 2 ejercicio en libreta y p\'agins del libro (36-39, 76--79) \\ \\
+    \large{\sc Secuencias:} \\
+    Profesor:   & Dictado, escritura y explicaci\'on de las f\'ormulas para calcular \'areas de figuras irregulares. \\
+    Alumno:     & C\'alculo de per\'imetros y \'areas de figuras irregulares. \\
+                & Medici\'on de los par\'ametros de las figuras de una cancha de b\'asquetbol.  \\
+                & Resoluci\'on de las p\'aginas del libro correspondientes a este tema: 24--31, 104--107. \\
+    Profesor:   & Planteamiento de la actividad \textit{Jugando al arquitecto}: en esta actividad se le plantea al alumno el problema de construir una plaza p\'ublica que implica distintas figuras geom\'etricas; posteriormente sele pide que plantee que materiales se necesitar\'an y que saque un costo final del proyecto. \\
+    Alumno:     & Resoluci\'on del proyecto de construcci\'on de una plaza p\'ublica. C\'alculo de costos finales. C\'alculo de ganancias.\\
+\\ \hline \\
+ 
+    \textsc{Tiempo:}& 2 sesiones: lunes 20 y martes 21  de noviembre. \\
+                    & {\Large \sc Aplicaci\'on de examen parcial} (20 de noviembre). \\ 
+                    & Revisi\'on grupal del los resultados del examen parciall y correcci\'on de examen (22 de noviembre).\\
+\\ \hline \\
+    \textsc{Tiempo:}                    & 6 sesiones: 24--26, 30 de noviembre y 1--3 de diciembre \\
+    \textsc{Temas y subtemas:}          & Proporcionalidad directa e inversa. \\
+    \sc{Evidencias a evaluar:}          & 1 tarea, 2 ejercicio en libreta, p\'agins del libro (24--31) y examen sorpresa \\ \\
+
+    \large{\sc Secuencias:} \\
+    Profesor:   & Explicaci\'on de la importancia de la proporcionalidad. \\
+                & Explicaci\'on del procedimiento para resolver regla de tres. \\
+    Alumno:     & Resolución de problemas de que implican el uso de regla de tres. \\
+                & Resoluci\'on de problemas en el libro: p\'aginas 24--31. \\
+    Profesor:   & Explicaci\'on de porcentajes a manera de regla de tres. \\
+                & Explicaci\'on de estrategia mercantil: descuento sobre descuento \\
+                & Exlicaci\'on de porcentajes notables. \\
+    Alumno:     & C\'alculo de porcentajes sencillos y compuestos. \\
+    Profesor:   & Explicación de la diferencia entre la proporcionalidad directa y la inversa. Ejemplos de problemas. \\
+    Alumno:     & Resoluci\'on de problemas que implican el uso de proporcionalidad inversa. \\
+\\ \hline \\
+\end{tabular}
+
+\begin{tabular}[t]{R{0.25\textwidth}p{0.71\textwidth}}
+\\ \hline \\
+    \textsc{Tiempo:}& 1 d\'ia, viernes 30 de Octubre. \\
+                    & {\Large \sc Consejo T\'ecnico Escolar.} \\ 
+\\ \hline \\
+    \textsc{Tiempo:}                    & 5 sesiones: 7--11 de diciembre. \\
+    \textsc{Temas y subtemas:}          & Medidas de tendencia central: media, moda y mediana; Nociones de probabilidad.\\
+    \sc{Evidencias a evaluar:}          & 1 tarea, 2 ejercicio en libreta y p\'agins del libro (40--43) \\ \\
+    \large{\sc Secuencias:} \\
+    Profesor:   & Explicaci\'on de la importancia de las medidas de tendencia central y su uso: media, moda y mediana. \\
+                & Explicaci\'on del procedimiento para la obtenci\'on de dichas medidas de tendencia central. \\
+    Alumno:     & C\'alculo de las medidas de tendencia central de un juego de n\'umeros.  \\
+                & C\'alculo de las medidas de tendencia central de distintos datos: edades, alturas, distancias. \\
+    Profesor:   & Explicaci\'on de la probabilidad de un evento. \\
+                & Explicaci\'on de c\'omo es que funcionan algunos juegos de azar. \\
+    Alumno:     & Determinación de la probabilidad de distintos eventos: alta, media, baja o nula. \\
+    Profesor:   & Explicaci\'on de la construcci\'on de un histogramas y de c\'omo extraer datos de los mismos. \\
+    Alumno:     & Consrtrucci\'on de histogramas a partir de datos estad\'isticos.\\
+\\ \hline \\
+ 
+    \textsc{Tiempo:}& 2 sesiones: lunes 14 y martes 15  de diciembre. \\
+                    & {\Large \sc Aplicaci\'on de examen parcial} (14 de diciembre). \\ 
+                    & Revisi\'on grupal del los resultados del examen parciall y correcci\'on de examen (15 de diciembre).\\
+\\ \hline \\
+
+\end{tabular}
+
+
+\end{document}
+
+
+
+16 Octo - 17 Dic
+Total: 42 sesiones
+
+---- temas parcial
+16 octubre      1 Dictado temario, portada segundo bimestre
+19-23 octubre   5 Revision examen bimestral, corrección examen, Perimetros/Areas fig. reg
+26-29 octubre   4 Perímetros y áreas de figuras regulares
+30 octubre CTE  0 Consejo Técnico Escolar
+3-6 noviembre   4 Operaciones decimales
+9-11 noviembre  7 Operaciones decimales y problemas
+12-13 16-19 noviembre 6 Problemas perímetros y áreas
+20 noviembre    1 Examen parcial
+---- temas bimestral
+23 noviembre    1 Revisión de examen, corrección de examen
+24-26 noviembre 3 Proporcionalidad directa
+27 nov CTE      0 
+30-3 diciembre  5 Proporcionalidad directa e inversa
+7-11 diciembre  5 Medidas de tendencia central / Probabilidad y estadística
+14-16 diciembre 3 Histogramas / Fonomímicas / 
+17 diciembre    1 Examen bimestral
+        Total: 42
+
+\section{Informaci\'on  y secuencias did\'acticas}
+\begin{tabular}[t]{R{0.25\textwidth}p{0.71\textwidth}}
+    \textsc{Tiempo:}                    &1 sesi\'on: 4 de agosto. \\
+    \textsc{Temas y subtemas:}          &Presentaci\'on del profesor y de las reglas generales en el salón de clase. \\
+    \textsc{Aprendizaje esperado: }     &El alumno retoma y reafirma conocimentos para realizar operaciones basicas con decimales. \\
+    \textsc{Evidencias a evaluar:}      &4 tareas y 3 ex\'amenes rapidos. \\\\
+    \textsc{\large Secuencias:} \\
+    Alumno      &Resoluci\'on de problemas complementarios referentes a operaciones con decimales. \\
+    Profesor    &Aplicaci\'on de ex\'amenes r\'apidos para evaluar el el aprendizaje de operaciones con n\'umeros decimales. \\
+                &Retroalimentaci\'on personal acerca de las fallas en dichos temas. \\
+    Alumno      &Correcci\'on de errores. \\
+    Profesor    &Revisi\'on del proceso de aprendizaje. \\ 
+\\ \hline \\
+\end{tabular}
